@@ -31,7 +31,7 @@ const Header = () => {
                 <Link className="navlink"  to="/" onClick={() => setclick(true)}> 
                     Formations
                 </Link>
-                <Link className="navlink"  to="/signin" onClick={() => setclick(true)}>
+                <Link className="navlink"  to="/Signin" onClick={() => setclick(true)}>
                     Contact Me
                 </Link>
             </div>

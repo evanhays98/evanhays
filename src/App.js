@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Redirect, Route, Switch } from "react-router-dom";
+import {Router, Redirect, Route, HashRouter} from "react-router-dom";
 import { createBrowserHistory } from "history";
 import Presentation from "./pages/Presentation";
 import Header from "./components/Header"
@@ -13,11 +13,11 @@ function App() {
       <div className="App">
         <Router history={hist}>
         <Header />
-        <Switch>
+        <HashRouter>
             <Route path="/" exact component={Presentation}/>
             <Route path="/Signin" exact component={Signin}/>
             <Redirect to="/" />
-        </Switch>
+        </HashRouter>
         <Footer/>
         </Router>
       </div>
