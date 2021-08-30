@@ -6,13 +6,15 @@ import styled from 'styled-components'
 import loginImage from "../images/test.jpg";
 import Formations from "../components/Formations";
 import {Experience1, Experience2, Experience3, Formation1, Formation2, Formation3} from "../Data/DataFormation";
-import {AiOutlineRight} from "react-icons/all";
+import {AiOutlineRight, VscDebugBreakpointConditionalUnverified} from "react-icons/all";
+import Competence from "../components/Competence";
+import {Competence1, Competence2, Competence3, Competence4} from "../Data/DataComptence";
 
 export const BodyCont = styled.div`
     width: 90%;
     display: block;
     position: relative;
-    background : #191919;
+    background : rgba(25, 25, 25, 0.99);
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
@@ -25,6 +27,7 @@ export const BodyCont = styled.div`
       padding-right: 0;
       padding-left: 0;
       padding-top: 150px;
+      border-radius: 10px;
     }
 `
 
@@ -56,6 +59,7 @@ const Presentation = () => {
 
     const [formation, setFormation] = useState(false)
     const [experience, setExperience] = useState(false)
+    const [competence, setCompetence] = useState(false)
 
     const handleFormation = () => {
         setFormation(!formation)
@@ -63,6 +67,10 @@ const Presentation = () => {
 
     const handleExperience = () => {
         setExperience(!experience)
+    }
+
+    const handleCompetence = () => {
+        setCompetence(!competence)
     }
 
     const [hover, setHover] = useState(false);
@@ -94,7 +102,7 @@ const Presentation = () => {
                     <button className='btn2' to="/"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}>
-                        Go further {hover ? <ArrowForward /> : <ArrowRight />}
+                        En savoir plus  {hover ? <ArrowForward /> : <ArrowRight />}
                     </button>
                 </div>
             </BodyCont>
@@ -114,7 +122,27 @@ const Presentation = () => {
                     <button className='btn2' to="/"
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}>
-                        Go further {hover ? <ArrowForward /> : <ArrowRight />}
+                        En savoir plus  {hover ? <ArrowForward /> : <ArrowRight />}
+                    </button>
+                </div>
+            </div>
+
+            <div className='bodyCont'>
+                <div className='titre' onClick={handleCompetence}>
+                    <AiOutlineRight className={competence ? 'display-icons-none' : 'display-icons'}/>
+                    <h1 className='text'>Mes Competences</h1>
+                </div>
+                <div className={competence ? 'listwrapper display' : 'listwrapper display-none'}>
+                    <Competence {...Competence1}/>
+                    <Competence {...Competence2}/>
+                    <Competence {...Competence3}/>
+                    <Competence {...Competence4}/>
+                </div>
+                <div className={competence ? 'btnwrap display' : 'btnwrap display-none'}>
+                    <button className='btn2' to="/"
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}>
+                        En savoir plus {hover ? <ArrowForward /> : <ArrowRight />}
                     </button>
                 </div>
             </div>

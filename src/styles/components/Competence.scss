@@ -1,0 +1,45 @@
+.Competence {
+  border:  1px solid $colorA;
+  display: flex;
+  width: auto;
+  height: 70px;
+  margin: 5px;
+  background-color: $background;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Competence .titlewrapper {
+  padding: 5px;
+  max-width: 250px;
+}
+
+.Competence .title {
+  background-color: $background;
+  color: $colorB;
+  font-size: 15px;
+  padding: 5px;
+  display: block;
+  font-weight: 400;
+}
+
+.Competence .starswrapper{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: auto;
+  padding: 10px;
+}
+
+.Competence .stars {
+  font-size: 25px;
+}
+
+.Competence .fill{
+  color: $colorD;
+}
+.Competence .empty{
+  color: $colorA;
+}

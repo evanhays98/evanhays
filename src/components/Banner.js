@@ -68,12 +68,12 @@ export const BannerH2 = styled.h1`
   margin-left: 50px;
 
     @media screen and (max-width: 768px) {
-        font-size : 40px;
+        font-size : 25px;
     }
 
     @media screen and (max-width: 480px)
     {
-        font-size: 32px;
+        font-size: 25px;
     }
 `
 
@@ -167,7 +167,7 @@ const Banner = () => {
                         onMouseEnter={onHover} 
                         onMouseLeave={onHover}
                         big='false'>
-                        About Me {hover ? <ArrowForward /> : <ArrowRight />}
+                        A propos de Moi {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </BannerBtnWrapper>
             </BannerContent>
