@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/evanhays/static/css/main.a617e044.chunk.css",
-    "main.js": "/evanhays/static/js/main.fab5848f.chunk.js",
-    "main.js.map": "/evanhays/static/js/main.fab5848f.chunk.js.map",
-    "runtime-main.js": "/evanhays/static/js/runtime-main.5d1fca5d.js",
-    "runtime-main.js.map": "/evanhays/static/js/runtime-main.5d1fca5d.js.map",
-    "static/js/2.9b95345f.chunk.js": "/evanhays/static/js/2.9b95345f.chunk.js",
-    "static/js/2.9b95345f.chunk.js.map": "/evanhays/static/js/2.9b95345f.chunk.js.map",
-    "static/js/3.c020dfcd.chunk.js": "/evanhays/static/js/3.c020dfcd.chunk.js",
-    "static/js/3.c020dfcd.chunk.js.map": "/evanhays/static/js/3.c020dfcd.chunk.js.map",
+    "main.css": "/evanhays/static/css/main.ea357c91.chunk.css",
+    "main.js": "/evanhays/static/js/main.3908744e.chunk.js",
+    "main.js.map": "/evanhays/static/js/main.3908744e.chunk.js.map",
+    "runtime-main.js": "/evanhays/static/js/runtime-main.aa9ec0e4.js",
+    "runtime-main.js.map": "/evanhays/static/js/runtime-main.aa9ec0e4.js.map",
+    "static/js/2.17ee499c.chunk.js": "/evanhays/static/js/2.17ee499c.chunk.js",
+    "static/js/2.17ee499c.chunk.js.map": "/evanhays/static/js/2.17ee499c.chunk.js.map",
     "index.html": "/evanhays/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/evanhays/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.9b95345f.chunk.js.LICENSE.txt": "/evanhays/static/js/2.9b95345f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/evanhays/static/media/logo.6ce24c58.svg"
+    "static/css/main.ea357c91.chunk.css.map": "/evanhays/static/css/main.ea357c91.chunk.css.map",
+    "static/js/2.17ee499c.chunk.js.LICENSE.txt": "/evanhays/static/js/2.17ee499c.chunk.js.LICENSE.txt",
+    "static/media/chine.png": "/evanhays/static/media/chine.c499af48.png",
+    "static/media/chumauldre.jpeg": "/evanhays/static/media/chumauldre.da11b0e7.jpeg",
+    "static/media/evanhays.jpg": "/evanhays/static/media/evanhays.7b5ed8a4.jpg",
+    "static/media/test.56ef7695.jpg": "/evanhays/static/media/test.56ef7695.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d1fca5d.js",
-    "static/js/2.9b95345f.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.fab5848f.chunk.js"
+    "static/js/runtime-main.aa9ec0e4.js",
+    "static/js/2.17ee499c.chunk.js",
+    "static/css/main.ea357c91.chunk.css",
+    "static/js/main.3908744e.chunk.js"
   ]
 }
