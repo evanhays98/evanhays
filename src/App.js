@@ -1,5 +1,5 @@
 import React from "react";
-import {Router, Redirect, Route, HashRouter} from "react-router-dom";
+import {Router, Redirect, Route, HashRouter, Switch} from "react-router-dom";
 import { createBrowserHistory } from "history";
 import Presentation from "./pages/Presentation";
 import Header from "./components/Header"
@@ -11,15 +11,13 @@ var hist = createBrowserHistory();
 function App() {
   return (
       <div className="App">
-        <Router history={hist}>
-        <Header />
-        <HashRouter>
-            <Route path="/" exact component={Presentation}/>
-            <Route path="/Signin" exact component={Signin}/>
-            <Redirect to="/" />
+        <HashRouter history={hist}>
+            <Header />
+                <Route path="/" exact component={Presentation}/>
+                <Route path="/Signin" exact component={Signin}/>
+                <Redirect to="/" />
+            <Footer/>
         </HashRouter>
-        <Footer/>
-        </Router>
       </div>
   );
 }
