@@ -15,7 +15,7 @@ const Formations = (
             </div>
             <div className='wrapper image'>
                 <div className='imagewrap'>
-                    <img className='img' src={image}/>
+                    <img className='img' src={image} alt='img'/>
                 </div>
             </div>
             <div className='wrapper lieu'>

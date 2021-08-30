@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
 import { AiOutlineLogout } from "react-icons/ai";

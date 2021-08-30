@@ -1,10 +1,5 @@
-import React, {useState} from "react";
-import loginImage from "../images/test.jpg";
+import React from "react";
 import styled from 'styled-components'
-import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
-import {Link} from 'react-router-dom'
-import MainContainer from "../components/MainContainer"
-import { homeObjOne, homeObjTwo } from '../Data/Data';
 
 
 export const BodyBG = styled.div `

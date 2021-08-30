@@ -1,7 +1,5 @@
 import React, {useState} from "react";
-import loginImage from "../images/test.jpg";
 import styled from 'styled-components'
-import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-router-dom'
 
 export const MainContainerC = styled.div`
@@ -146,12 +144,6 @@ const MainContainer = ({id,
                         secondary,
                         colorbtn,
                         darkText}) => {
-
-    const [hover, setHover] = useState(false);
-    const onHover = () => {
-        setHover(!hover)
-    }
-
     return (
         <MainContainerC lightBg={lightBg} id={id}>
             <MainWrapper>

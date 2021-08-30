@@ -2,43 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1844b5b7-07e4-4610-af04-96e04735936e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/DataFormation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BodyContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Formations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PhotoCover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfilPictures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/airlynx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/background-header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/background-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/chine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/chumauldre.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/epita.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/evanhays.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/lvld.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/macdo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/profil.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Presentation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Signin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/All.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/Banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/Formation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/MainContainer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/ProfilePicture.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/pages/Presentation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/pages/Signin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/components/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BodyContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BodyContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Formations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Formations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhotoCover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhotoCover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfilPictures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilPictures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Presentation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../fidelityCard/fidelity/frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -72,11 +50,22 @@
       <option name="presentableId" value="Default" />
       <updated>1630336634291</updated>
       <workItem from="1630336635438" duration="392000" />
-      <workItem from="1630341309366" duration="1688000" />
+      <workItem from="1630341309366" duration="6149000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

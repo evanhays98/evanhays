@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import loginImage from "../images/test.jpg";
 import styled from 'styled-components'
 import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-router-dom'

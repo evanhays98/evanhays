@@ -1,11 +1,7 @@
 import { motion } from 'framer-motion';
 import React, {useState} from 'react';
-import Header from '../components/Header';
-import Banner, {ArrowForward, ArrowRight, Button} from "../components/Banner"
-import BodyContainer from "../components/BodyContainer"
-import MainContainer from "../components/MainContainer"
+import Banner, {ArrowForward, ArrowRight} from "../components/Banner"
 import ProfilPictures from "../components/ProfilPictures"
-import { homeObjOne, homeObjTwo } from '../Data/Data';
 import styled from 'styled-components'
 import loginImage from "../images/test.jpg";
 import Formations from "../components/Formations";
@@ -40,19 +36,6 @@ export const BannerBG = styled.div `
     left: 0;
     width: 100%;
     height: 100%;
-`
-
-export const Footer = styled.div `
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-
-    @media screen and (max-width: 768px) {
-        height: 0px;
-    }
 `
 
 export const ImageBG = styled.div`
@@ -135,8 +118,6 @@ const Presentation = () => {
                     </button>
                 </div>
             </div>
-            <Footer>
-            </Footer>
         </motion.div>
     );
 };

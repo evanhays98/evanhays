@@ -1,6 +1,4 @@
 import React from 'react'
-import Coverflow from 'react-coverflow';
-import Radium, {StyleRoot} from "radium";
 import styled from 'styled-components'
 
 

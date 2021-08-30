@@ -5,8 +5,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'This is topline',
     headline: 'this is my title',
-    description: 'description  description description description description\
-                    description description description description.',
+    description: 'description  description description description description description description description description.',
     buttonLabel: 'Go somewhere',
     toplinecolor: "#C3B28C",
     imgStart: true,
@@ -27,8 +26,7 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'This is topline',
     headline: 'this is my title',
-    description: 'description  description description description description\
-                    description description description description.',
+    description: 'description  description description description description description description description description.',
     buttonLabel: 'Go somewhere',
     imgStart: false,
     img: require('../images/test.jpg').default,

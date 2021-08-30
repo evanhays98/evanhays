@@ -1,8 +1,5 @@
-import React, {useState} from "react";
-import loginImage from "../images/test.jpg";
+import React from "react";
 import styled from 'styled-components'
-import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
-import {Link} from 'react-router-dom'
 
 export const MainContainerC = styled.div`
     margin: 0 auto;
@@ -48,7 +45,7 @@ const ProfilPictures = () => {
     return (
         <div className='profilePicture'>
             <div className="wrap">
-                <img className='img' src={require('../images/evanhays.jpg').default}/>
+                <img className='img' src={require('../images/evanhays.jpg').default} alt='profile'/>
             </div>
         </div>
     );
