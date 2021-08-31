@@ -5,7 +5,15 @@ import ProfilPictures from "../components/ProfilPictures"
 import styled from 'styled-components'
 import loginImage from "../images/test.jpg";
 import Formations from "../components/Formations";
-import {Experience1, Experience2, Experience3, Formation1, Formation2, Formation3} from "../Data/DataFormation";
+import {
+    Experience1,
+    Experience2,
+    Experience3,
+    Formation1,
+    Formation2,
+    Formation3,
+    Projet1, Projet2, Projet3
+} from "../Data/DataFormation";
 import {AiOutlineRight, VscDebugBreakpointConditionalUnverified} from "react-icons/all";
 import Competence from "../components/Competence";
 import {Competence1, Competence2, Competence3, Competence4} from "../Data/DataComptence";
@@ -60,6 +68,7 @@ const Presentation = () => {
     const [formation, setFormation] = useState(false)
     const [experience, setExperience] = useState(false)
     const [competence, setCompetence] = useState(false)
+    const [projet, setProjet] = useState(false)
 
     const handleFormation = () => {
         setFormation(!formation)
@@ -71,6 +80,10 @@ const Presentation = () => {
 
     const handleCompetence = () => {
         setCompetence(!competence)
+    }
+
+    const handleProjet = () => {
+        setProjet(!projet)
     }
 
     const [hover, setHover] = useState(false);
@@ -143,6 +156,26 @@ const Presentation = () => {
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}>
                         En savoir plus {hover ? <ArrowForward /> : <ArrowRight />}
+                    </button>
+                </div>
+            </div>
+
+            <div className='bodyCont'>
+                <div className='titre' onClick={handleProjet}>
+                    <AiOutlineRight className={projet ? 'display-icons-none' : 'display-icons'}/>
+                    <h1 className='text'>Mes Projets</h1>
+                </div>
+                <div className={projet ? 'listwrapper display' : 'listwrapper display-none'}>
+                    <Formations {...Projet1}/>
+                    <Formations {...Projet2}/>
+                    <Formations {...Projet3}/>
+
+                </div>
+                <div className={projet ? 'btnwrap display' : 'btnwrap display-none'}>
+                    <button className='btn2' to="/"
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}>
+                        En savoir plus  {hover ? <ArrowForward /> : <ArrowRight />}
                     </button>
                 </div>
             </div>

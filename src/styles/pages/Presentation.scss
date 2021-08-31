@@ -22,13 +22,13 @@
 
 .presentation .display-icons {
     margin-left: 7px;
-    transition-duration: .5s;
+    transition-duration: .3s;
     transition-timing-function: linear;
 }
 
 .presentation .display-icons-none {
     transform: rotate(90deg);
-    transition-duration: .5s;
+    transition-duration: .3s;
     transition-timing-function: linear;
 }
 
@@ -57,7 +57,7 @@
     max-height: 0;
     overflow: hidden;
     transition-duration: .3s;
-    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
 }
 
 .presentation .bodyCont {

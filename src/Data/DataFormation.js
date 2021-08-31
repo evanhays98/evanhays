@@ -1,3 +1,5 @@
+//Experience
+
 export const Experience1 = {
     name: 'Aide soigant',
     image: require('../images/chumauldre.jpeg').default,
@@ -25,6 +27,8 @@ export const Experience3 = {
     description: 'Développement contribuant à l’industrialisation des produits PMR (PrivateMobile Radiocommunications) de nouvelle génération du département Terminaux et Infrastructure d‘Atos'
 }
 
+//Formations
+
 export const Formation1 = {
     name: 'Ecole d\'ingénieurs informatique Paris - EPITA',
     image: require('../images/epita.jpeg').default,
@@ -50,4 +54,32 @@ export const Formation3 = {
     date: '2015 -> 2016',
     time: '2 ans',
     description: 'Baccalauréat science de l\'ingénieur spécialité informatique'
+}
+
+// Projet
+
+export const Projet1 = {
+    name: 'C - Shell',
+    image: require('../images/shell.jpeg').default,
+    lieu: '',
+    date: '2019',
+    time: '4 semaines',
+    description: 'Implémentation d’un Shell suivant la norme POSIX'
+}
+
+export const Projet2 = {
+    name: 'C++ - Chess',
+    image: require('../images/chess.jpg').default,
+    lieu: '',
+    date: '2020',
+    time: '3 semaines',
+    description: 'Création d’un Chess Engine avec son IA'
+}
+export const Projet3 = {
+    name: 'Java - API REST ',
+    image: require('../images/api.png').default,
+    lieu: '',
+    date: '2020',
+    time: '2 semaines',
+    description: 'Implémentation d’une API REST'
 }
