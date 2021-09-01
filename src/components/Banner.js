@@ -163,7 +163,7 @@ const Banner = () => {
                 <BannerP>Elève ingénieur en informatique de 5e année à l'EPITA à la recherche d’un stage de fin d'etude
                 debut fevrier</BannerP>
                 <BannerBtnWrapper>
-                    <Button to="/" 
+                    <Button to="/Aboutme"
                         onMouseEnter={onHover} 
                         onMouseLeave={onHover}
                         big='false'>

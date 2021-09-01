@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <div className="nav">
             <Link className="navlinkT" to="/">
-                <h1>Evan HAYS</h1>
+                <h1>Resume</h1>
             </Link>
             <FaBars className={click ? 'bars' : 'bars-none'} onClick={handleClick}/>
             <AiOutlineLogout className={click ? 'bars-none' : 'bars'} onClick={handleClick}/>

@@ -8,7 +8,7 @@ const Sport = ({
 
     return (
         <div className='sportcontainer'>
-            <h1 className='grostitre'>Les sports que j'ai pu pratiqué</h1>
+            <h1 className='grostitre'>Les sports</h1>
             <div className='sportwrapper'>
                 <div className='Sport'>
                     <div className='titlewrapper'>

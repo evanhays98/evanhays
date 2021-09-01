@@ -6,7 +6,7 @@ $colorA : #ededed;
 $colorB : #a7d9d0;
 $colorC : #61c5b4;
 $colorD : #1bb198;
-$colorE : #010606;
+$colorE : #d0e7e0;
 $colorForm : rgb(247, 242, 242);
 
 // Breakpoints.
@@ -98,11 +98,13 @@ html, body, div, span, applet, object,
 	}
 
 	h5 {
+		font-family: $font-1;
 		font-size: 0.8em;
 		line-height: 1.5em;
 	}
 
 	h6 {
+		font-family: $font-1;
 		font-size: 0.7em;
 		line-height: 1.5em;
 	}
@@ -110,6 +112,7 @@ html, body, div, span, applet, object,
     a {
 		border-bottom: dotted 1px;
 		color: inherit;
+		font-family: $font-1;
 		text-decoration: none;
 		border-bottom-color: transparent;
 	}

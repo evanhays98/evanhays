@@ -9,6 +9,10 @@
   text-align: center;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 768px){
+    width: 160px;
+  }
 }
 
 .PaysVisite .titlewrapper {
@@ -25,6 +29,10 @@
   padding: 5px;
   display: block;
   font-weight: 400;
+
+  @media screen and (max-width: 768px){
+    font-size: 13px;
+  }
 }
 
 .PaysVisite .logowrapper{
@@ -43,6 +51,11 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+
+  @media screen and (max-width: 768px){
+    width: 60px;
+    height: 40px;
+  }
 }
 .logowrapper .img {
   width: 100%;

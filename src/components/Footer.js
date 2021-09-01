@@ -16,18 +16,17 @@ const Footer = () => {
                 </div>
                 <div className='contact'>
                     <AiFillGithub className='icons'/>
-                    <p className='textcontact'>evanhays98</p>
+                    <a href='https://github.com/evanhays98' className='textcontact'>evanhays98</a>
                 </div>
                 <div className='contact'>
                     <AiOutlineInstagram className='icons'/>
-                    <p className='textcontact'>vanouh78</p>
+                    <a href='https://www.instagram.com/vanouh78/' className='textcontact'>vanouh78</a>
                 </div>
                 <div className='contact'>
                     <FaLinkedinIn className='icons'/>
-                    <p className='textcontact'>evanhays98</p>
+                    <a href='https://www.linkedin.com/in/evanhays98/' className='textcontact'>evanhays98</a>
                 </div>
             </div>
-            <div className='line'/>
             <p className='textcopy'>Copyright © evanhays</p>
         </div>
     );

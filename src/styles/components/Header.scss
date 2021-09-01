@@ -17,18 +17,17 @@
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: font-size 0.2s ease-in;
 
     &.avtice {
     color: $colorB;
     }
 
     &:hover{
-        font-size: 110%;
+        font-size: 103%;
+        transition: font-size 0.2s ease-out;
     }
 }
-
-
 
 .bars
 {
@@ -72,7 +71,7 @@
         top : 7vh;
         height: 93vh;
         width: 90vw;
-        background-color: #000;
+        background-color: $background;
         flex-direction : column;
 
     }

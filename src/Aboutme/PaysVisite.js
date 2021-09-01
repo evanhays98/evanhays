@@ -9,6 +9,7 @@ const PaysVisite = ({
     return (
         <div className='sportcontainer'>
             <h1 className='grostitre'>Les pays que j'ai visité</h1>
+            <h1 className='grostitre2'>22 / 195</h1>
             <div className='paysvisitewrapper'>
                 <div className='PaysVisite'>
                     <div className='titlewrapper'>

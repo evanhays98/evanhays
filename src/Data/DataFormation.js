@@ -6,7 +6,7 @@ export const Experience1 = {
     lieu: 'CENTRE HOSPITALIER DE LA MAULDRE MONTFORT-L\'AMAURY / JOUARS-PONTCHARTRAIN',
     date: '2018',
     time: '2 mois',
-    description: 'S\'occuper de\'HYGIÈNE ET VEILLER AU CONFORT PHYSIQUE ET MORAL DES MALADES.'
+    description: 'S\'occuper de\'hygiène et veiller au confort physique et moral des patients.'
 }
 
 export const Experience2 = {

@@ -7,6 +7,7 @@ import {Competence1, Competence2, Competence3, Competence4} from "../Data/DataCo
 import {BiRun, FaBiking, FaParachuteBox, FaSwimmer, GiGolfFlag, GiTennisRacket} from "react-icons/all";
 import Sport from "../Aboutme/Sport";
 import PaysVisite from "../Aboutme/PaysVisite";
+import QualiteDefault from "../Aboutme/QualiteDefault";
 
 const Aboutme = () => {
     return (
@@ -49,6 +50,9 @@ const Aboutme = () => {
                     </div>
                 </div>
             </div>
+            <div className='separation'/>
+            <h1 className='grostitre'>Adjectifs me qualifiant</h1>
+            <QualiteDefault/>
             <div className='separation'/>
             <Sport />
             <div className='separation'/>
