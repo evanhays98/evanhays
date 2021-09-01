@@ -1,0 +1,54 @@
+.PaysVisite {
+  border:  1px solid $colorA;
+  display: flex;
+  width: 250px;
+  height: 70px;
+  margin: 5px;
+  background-color: $background;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PaysVisite .titlewrapper {
+  display: flex;
+  padding: 5px;
+  max-width: 250px;
+  justify-content: flex-end;
+}
+
+.PaysVisite .title {
+  background-color: $background;
+  color: $colorB;
+  font-size: 17px;
+  padding: 5px;
+  display: block;
+  font-weight: 400;
+}
+
+.PaysVisite .logowrapper{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding: 10px;
+  font-size: 30px;
+  color: $colorC;
+}
+
+.logowrapper .imagewrap {
+  width: 90px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.logowrapper .img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 0 0;
+  padding-right: 0;
+  border-radius: 0px;
+}
+

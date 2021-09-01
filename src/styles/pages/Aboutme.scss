@@ -1,0 +1,186 @@
+.aboutme {
+  display: block;
+  padding-top: 10vh;
+}
+
+.aboutme .bigwrapper1 {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+  align-items: center;
+  grid-template-areas:
+    "infos description";
+
+  @media screen and (max-width: 950px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  @media screen and (max-width: 1300px) {
+    grid-template-columns: 35% 65%;
+  }
+}
+
+.aboutme .wrap11 {
+  display: block;
+  width: 100%;
+  background-color: $background;
+  backdrop-filter: blur(10px);
+  border: 6px ridge  $colorB;
+  color: #444;
+
+  @media screen and (max-width: 950px) {
+    border: none;
+  }
+}
+
+.wrap11 .titlewrapper {
+  width: auto;
+  position: relative;
+  color: $colorA;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.aboutme .wrap11 .title{
+  font-size: 30px;
+  font-weight: 600;
+  background-image: linear-gradient(145deg, $colorB, $colorA);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  @media screen and (max-width: 950px) {
+    border: none;
+    font-size: 22px;
+  }
+}
+
+.aboutme .wrap12 {
+  background-color: $background;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutme .wrap12 .text{
+  background-color: $background;
+  color: #d0e7e0;
+  font-size: 18px;
+  display: block;
+  font-weight: 400;
+
+  @media screen and (max-width: 950px) {
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+
+  }
+}
+.aboutme .description {
+  padding: 50px;
+
+  @media screen and (max-width: 950px) {
+    padding: 15px;
+  }
+}
+
+.label-field-profile {
+  width: 100%;
+  position: relative;
+  color: $colorA;
+  display: grid;
+  padding-bottom: 10px;
+  grid-template-columns: 30% 5% 60%;
+}
+
+.aboutme .label-profile-1 {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  vertical-align: middle;
+  color: $colorD;
+  font-size: 15px;
+}
+
+.span-profile {
+  display: flex;
+  align-items: center;
+  color: $colorC;
+  font-size: 30px;
+}
+
+.label-profile-2 {
+  display: flex;
+  align-items: center;
+  color: $colorA;
+  font-size: 15px;
+  padding-right: 20px;
+}
+
+.separation {
+  background-color: $colorC;
+  width: 80%;
+  height: 1px;
+  margin: 50px auto;
+}
+
+.aboutme .sportcontainer {
+  width: 80%;
+  margin: auto;
+
+  @media screen and (max-width: 768px){
+    width: 100%;
+  }
+}
+
+.aboutme .grostitre {
+  background-image: linear-gradient(145deg, $colorB, $colorA);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  font-weight: 600;
+
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }
+}
+
+.aboutme .sportwrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.aboutme .paysvisitewrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}

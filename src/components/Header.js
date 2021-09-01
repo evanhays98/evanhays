@@ -19,7 +19,7 @@ const Header = () => {
             <FaBars className={click ? 'bars' : 'bars-none'} onClick={handleClick}/>
             <AiOutlineLogout className={click ? 'bars-none' : 'bars'} onClick={handleClick}/>
             <div className={click ? 'navmenu clicked' : 'navmenu'}>
-                <Link className="navlink"  to="/" onClick={() => setclick(true)}>
+                <Link className="navlink"  to="/Aboutme" onClick={() => setclick(true)}>
                     A Propos
                 </Link>
                 <Link className="navlink"  to="/" onClick={() => setclick(true)}>

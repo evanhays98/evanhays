@@ -61,7 +61,6 @@ export const Formation3 = {
 export const Projet1 = {
     name: 'C - Shell',
     image: require('../images/shell.jpeg').default,
-    lieu: '',
     date: '2019',
     time: '4 semaines',
     description: 'Implémentation d’un Shell suivant la norme POSIX'
@@ -70,7 +69,6 @@ export const Projet1 = {
 export const Projet2 = {
     name: 'C++ - Chess',
     image: require('../images/chess.jpg').default,
-    lieu: '',
     date: '2020',
     time: '3 semaines',
     description: 'Création d’un Chess Engine avec son IA'
@@ -78,7 +76,6 @@ export const Projet2 = {
 export const Projet3 = {
     name: 'Java - API REST ',
     image: require('../images/api.png').default,
-    lieu: '',
     date: '2020',
     time: '2 semaines',
     description: 'Implémentation d’une API REST'

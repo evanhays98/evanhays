@@ -1,0 +1,38 @@
+.Sport {
+  border:  1px solid $colorA;
+  display: flex;
+  width: 200px;
+  height: 70px;
+  margin: 5px;
+  background-color: $background;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Sport .titlewrapper {
+  display: flex;
+  padding: 5px;
+  max-width: 250px;
+  justify-content: flex-end;
+}
+
+.Sport .title {
+  background-color: $background;
+  color: $colorB;
+  font-size: 17px;
+  padding: 5px;
+  display: block;
+  font-weight: 400;
+}
+
+.Sport .logowrapper{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  padding: 10px;
+  font-size: 30px;
+  color: $colorC;
+}
+

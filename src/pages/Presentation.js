@@ -17,6 +17,7 @@ import {
 import {AiOutlineRight, VscDebugBreakpointConditionalUnverified} from "react-icons/all";
 import Competence from "../components/Competence";
 import {Competence1, Competence2, Competence3, Competence4} from "../Data/DataComptence";
+import Projet from "../components/Projet";
 
 export const BodyCont = styled.div`
     width: 90%;
@@ -166,9 +167,9 @@ const Presentation = () => {
                     <h1 className='text'>Mes Projets</h1>
                 </div>
                 <div className={projet ? 'listwrapper display' : 'listwrapper display-none'}>
-                    <Formations {...Projet1}/>
-                    <Formations {...Projet2}/>
-                    <Formations {...Projet3}/>
+                    <Projet {...Projet1}/>
+                    <Projet {...Projet2}/>
+                    <Projet {...Projet3}/>
 
                 </div>
                 <div className={projet ? 'btnwrap display' : 'btnwrap display-none'}>
