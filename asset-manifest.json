@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/evanhays/static/css/main.7ce981ac.chunk.css",
-    "main.js": "/evanhays/static/js/main.58c7a7d6.chunk.js",
-    "main.js.map": "/evanhays/static/js/main.58c7a7d6.chunk.js.map",
+    "main.css": "/evanhays/static/css/main.89df7458.chunk.css",
+    "main.js": "/evanhays/static/js/main.d9231da7.chunk.js",
+    "main.js.map": "/evanhays/static/js/main.d9231da7.chunk.js.map",
     "runtime-main.js": "/evanhays/static/js/runtime-main.aa9ec0e4.js",
     "runtime-main.js.map": "/evanhays/static/js/runtime-main.aa9ec0e4.js.map",
     "static/js/2.6eb0e48a.chunk.js": "/evanhays/static/js/2.6eb0e48a.chunk.js",
     "static/js/2.6eb0e48a.chunk.js.map": "/evanhays/static/js/2.6eb0e48a.chunk.js.map",
     "index.html": "/evanhays/index.html",
-    "static/css/main.7ce981ac.chunk.css.map": "/evanhays/static/css/main.7ce981ac.chunk.css.map",
+    "static/css/main.89df7458.chunk.css.map": "/evanhays/static/css/main.89df7458.chunk.css.map",
     "static/js/2.6eb0e48a.chunk.js.LICENSE.txt": "/evanhays/static/js/2.6eb0e48a.chunk.js.LICENSE.txt",
     "static/media/chess.jpg": "/evanhays/static/media/chess.07f58cd9.jpg",
     "static/media/chine.png": "/evanhays/static/media/chine.c499af48.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.aa9ec0e4.js",
     "static/js/2.6eb0e48a.chunk.js",
-    "static/css/main.7ce981ac.chunk.css",
-    "static/js/main.58c7a7d6.chunk.js"
+    "static/css/main.89df7458.chunk.css",
+    "static/js/main.d9231da7.chunk.js"
   ]
 }
