@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/evanhays/static/css/main.5ad8045f.chunk.css",
-    "main.js": "/evanhays/static/js/main.6e2f2027.chunk.js",
-    "main.js.map": "/evanhays/static/js/main.6e2f2027.chunk.js.map",
+    "main.css": "/evanhays/static/css/main.dd4b9a7e.chunk.css",
+    "main.js": "/evanhays/static/js/main.ebb9e91b.chunk.js",
+    "main.js.map": "/evanhays/static/js/main.ebb9e91b.chunk.js.map",
     "runtime-main.js": "/evanhays/static/js/runtime-main.aa9ec0e4.js",
     "runtime-main.js.map": "/evanhays/static/js/runtime-main.aa9ec0e4.js.map",
-    "static/js/2.6eb0e48a.chunk.js": "/evanhays/static/js/2.6eb0e48a.chunk.js",
-    "static/js/2.6eb0e48a.chunk.js.map": "/evanhays/static/js/2.6eb0e48a.chunk.js.map",
+    "static/js/2.ab40c0f1.chunk.js": "/evanhays/static/js/2.ab40c0f1.chunk.js",
+    "static/js/2.ab40c0f1.chunk.js.map": "/evanhays/static/js/2.ab40c0f1.chunk.js.map",
     "index.html": "/evanhays/index.html",
-    "static/css/main.5ad8045f.chunk.css.map": "/evanhays/static/css/main.5ad8045f.chunk.css.map",
-    "static/js/2.6eb0e48a.chunk.js.LICENSE.txt": "/evanhays/static/js/2.6eb0e48a.chunk.js.LICENSE.txt",
+    "static/css/main.dd4b9a7e.chunk.css.map": "/evanhays/static/css/main.dd4b9a7e.chunk.css.map",
+    "static/js/2.ab40c0f1.chunk.js.LICENSE.txt": "/evanhays/static/js/2.ab40c0f1.chunk.js.LICENSE.txt",
     "static/media/chess.jpg": "/evanhays/static/media/chess.07f58cd9.jpg",
     "static/media/chine.png": "/evanhays/static/media/chine.c499af48.png",
     "static/media/chumauldre.jpeg": "/evanhays/static/media/chumauldre.da11b0e7.jpeg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.aa9ec0e4.js",
-    "static/js/2.6eb0e48a.chunk.js",
-    "static/css/main.5ad8045f.chunk.css",
-    "static/js/main.6e2f2027.chunk.js"
+    "static/js/2.ab40c0f1.chunk.js",
+    "static/css/main.dd4b9a7e.chunk.css",
+    "static/js/main.ebb9e91b.chunk.js"
   ]
 }
