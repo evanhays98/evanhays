@@ -22,7 +22,7 @@ const Header = () => {
                 <Link className="navlink"  to="/Aboutme" onClick={() => setclick(true)}>
                     A Propos
                 </Link>
-                <Link className="navlink"  to="/" onClick={() => setclick(true)}>
+                <Link className="navlink"  to="/Competence" onClick={() => setclick(true)}>
                     Competences
                 </Link>
                 <Link className="navlink"  to="/" onClick={() => setclick(true)}>

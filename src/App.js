@@ -6,6 +6,7 @@ import Header from "./components/Header"
 import Signin from "./pages/Signin";
 import Footer from "./components/Footer";
 import Aboutme from "./pages/Aboutme";
+import CompetencePage from "./pages/CompetencePage";
 
 var hist = createBrowserHistory();
 
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/" exact component={Presentation}/>
                 <Route path="/Signin" exact component={Signin}/>
                 <Route path="/Aboutme" exact component={Aboutme}/>
+                <Route path="/Competence" exact component={CompetencePage}/>
             <Footer/>
         </HashRouter>
       </div>

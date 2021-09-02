@@ -18,6 +18,7 @@ import {AiOutlineRight, VscDebugBreakpointConditionalUnverified} from "react-ico
 import Competence from "../components/Competence";
 import {Competence1, Competence2, Competence3, Competence4} from "../Data/DataComptence";
 import Projet from "../components/Projet";
+import {Link} from "react-router-dom";
 
 export const BodyCont = styled.div`
     width: 90%;
@@ -153,11 +154,13 @@ const Presentation = () => {
                     <Competence {...Competence4}/>
                 </div>
                 <div className={competence ? 'btnwrap display' : 'btnwrap display-none'}>
-                    <button className='btn2' to="/"
+                    <Link to="/Competence">
+                    <button  className='btn2'
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}>
                         En savoir plus {hover ? <ArrowForward /> : <ArrowRight />}
                     </button>
+                    </Link>
                 </div>
             </div>
 
