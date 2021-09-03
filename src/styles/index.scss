@@ -2,7 +2,7 @@
 
 //Pages
 @import "pages/Presentation.scss";
-@import "pages/Signin.scss";
+@import "pages/ExperiencePage.scss";
 @import "pages/Aboutme.scss";
 @import "pages/CompetencePage";
 
@@ -10,6 +10,9 @@
 @import "Aboutme/Sport";
 @import "Aboutme/PaysVisite";
 @import "Aboutme/Qualitedefault";
+
+//Experience
+@import "ExperiencePage/ExperienceComp";
 
 //Components
 @import "components/Header.scss";

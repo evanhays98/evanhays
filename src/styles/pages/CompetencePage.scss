@@ -1,4 +1,43 @@
 .competencepage {
   display: block;
+  width: 100%;
   padding-top: 10vh;
+}
+
+.competencepage .grostitre {
+  background-image: linear-gradient(145deg, $colorB, $colorA);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  font-weight: 600;
+
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }
+}
+
+
+.competencepage .competencecontainer {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 }

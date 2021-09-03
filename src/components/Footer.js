@@ -4,7 +4,7 @@ import {AiFillGithub, AiOutlineInstagram, FaLinkedinIn, HiOutlineMail, MdPhoneAn
 const Footer = () => {
 
     return (
-        <div className="foot">
+        <div id='footer' className="foot">
             <div className='contactwrapper'>
                 <div className='contact'>
                     <MdPhoneAndroid className='icons'/>
@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 <div className='contact'>
                     <FaLinkedinIn className='icons'/>
-                    <a href='https://www.linkedin.com/in/evanhays98/' className='textcontact'>evanhays98</a>
+                    <a href='https://www.linkedin.com/in/evanhays98/' target='-' className='textcontact'>evanhays98</a>
                 </div>
             </div>
             <p className='textcopy'>Copyright © evanhays</p>

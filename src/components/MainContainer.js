@@ -3,25 +3,20 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const MainContainerC = styled.div`
-    color: "#fff";
-    background: ${({lightBg}) => (lightBg ? '#f7f8fa' : '#010606')};;
+    color: #ededed;
+    background: ${({lightBg}) => (lightBg)};
     margin: 0 auto;
-
-    @media screen and (max-width: 768px)
-    {
-        padding: 100px 0;
-    }
 
 `
 
 export const MainWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: calc (0.311526 * 100vh + 45);
+    height: calc (0.311526 * 100vh + 10);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
+    padding-top: 20px;
     justify-content: center;
 `
 
@@ -50,8 +45,12 @@ export const Column2 = styled.div `
 `
 
 export const TextWrapper = styled.div`
-    padding-top: 0;
-    padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 `
 
 export const TopLine = styled.p`
@@ -61,15 +60,15 @@ export const TopLine = styled.p`
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    padding: 10px 0;
 `
 
 export const Heading = styled.h1`
-    margin-bottom: 24px;
+    padding: 12px 0;
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#000')};
+    color: ${({lightText}) => (lightText ? '#1bb198' : '#1bb198')};
 
     @media screen and (max-width: 768px)
     {
@@ -78,10 +77,10 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-    margin-bottom: 35px;
+    padding: 17px 0;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+    color: ${({darkText}) => (darkText ? '#ededed' : '#ededed')};
 
     @media screen and (max-width: 768px)
     {
@@ -89,60 +88,43 @@ export const Subtitle = styled.p`
     }
 `
 
-export const ButtonWrap = styled.div`
-    display: flex;
-    justify-content: flex-start;
+export const Subtitle2 = styled.p`
+    padding: 17px 0;
+  text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    color: ${({darkText}) => (darkText ? '#a7d9d0' : '#a7d9d0')};
+
+    @media screen and (max-width: 768px)
+    {
+        font-size: 14px;
+    }
 `
 
 export const ImgWrap = styled.div`
     height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 `
 
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 0px 0;
     padding-right: 0;
     border-radius: 20px;
-`
-
-export const Button = styled(Link)`
-    border-radius: 50px;
-    background: ${({primary}) => (primary)};
-    white-space: nowrap;
-    padding: ${({big}) => (big ? '14px 48px': '12px 30px')};
-    color: ${({colorbtn}) => (colorbtn)};
-    font-size: ${({fontBig}) => fontBig ? '20px' : '16px'};
-    font-family: 'Varela Round', sans-serif;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
-
-    &:hover {
-        transition: all 0.3s ease-in-out;
-        background: ${({secondary}) => (secondary)};
-    }
 `
 
 const MainContainer = ({id,
                         lightBg,
                         lightText,
-                        lightTextDesc,
                         topLine,
+                        lieux,
                         headline,
                         description,
-                        buttonLabel,
                         imgStart,
                         img,
                         alt,
                         toplinecolor,
-                        btncolor,
-                        primary,
-                        secondary,
-                        colorbtn,
                         darkText}) => {
     return (
         <MainContainerC lightBg={lightBg} id={id}>
@@ -152,19 +134,13 @@ const MainContainer = ({id,
                     <TextWrapper>
                         <TopLine toplinecolor={toplinecolor}>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headline}</Heading>
+                        <Subtitle2 darkText={darkText}>{lieux}</Subtitle2>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
-                        <ButtonWrap>
-                            <Button to="/" primary={primary}
-                                            secondary={secondary}
-                                            colorbtn={colorbtn}>
-                            {buttonLabel}</Button>
-                        </ButtonWrap>
                     </TextWrapper>
                     </Column1>
                     <Column2>
                         <ImgWrap>
-                        <TopLine toplinecolor={toplinecolor}>{topLine}</TopLine>
-                            <Img src={img} alt={alt}></Img>
+                            <Img src={img} alt={alt}/>
                         </ImgWrap>
                     </Column2>
                 </MainRow>

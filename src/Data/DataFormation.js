@@ -39,7 +39,7 @@ export const Formation1 = {
 }
 
 export const Formation2 = {
-    name: 'Northeastern University',
+name: 'Northeastern University',
     image: require('../images/chine.png').default,
     lieu: 'Shenyang Chine',
     date: '2019',
@@ -50,7 +50,7 @@ export const Formation2 = {
 export const Formation3 = {
     name: 'Lycée Violet le Duc',
     image: require('../images/lvld.jpeg').default,
-    lieu: 'CENTRE HOSPITALIER DE LA MAULDRE MONTFORT-L\'AMAURY / JOUARS-PONTCHARTRAIN',
+    lieu: '1 Rte de Septeuil, 78640 Villiers-Saint-Frédéric',
     date: '2015 -> 2016',
     time: '2 ans',
     description: 'Baccalauréat science de l\'ingénieur spécialité informatique'

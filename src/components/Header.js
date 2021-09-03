@@ -11,6 +11,15 @@ const Header = () => {
         setclick(!click)
     }
 
+    function scrollTofooter() {
+        setclick(true)
+        window.scrollTo({
+            top: document.getElementById('footer').offsetTop,
+            behavior: 'smooth',
+        })
+    }
+
+
     return (
         <div className="nav">
             <Link className="navlinkT" to="/">
@@ -25,15 +34,15 @@ const Header = () => {
                 <Link className="navlink"  to="/Competence" onClick={() => setclick(true)}>
                     Competences
                 </Link>
-                <Link className="navlink"  to="/" onClick={() => setclick(true)}>
+                <Link className="navlink"  to="/Experience" onClick={() => setclick(true)}>
                     Experiences
                 </Link>
-                <Link className="navlink"  to="/" onClick={() => setclick(true)}> 
+                <Link className="navlink"  to="/Formation" onClick={() => setclick(true)}>
                     Formations
                 </Link>
-                <Link className="navlink"  to="/Signin" onClick={() => setclick(true)}>
+                <label className="navlink" onClick={scrollTofooter} >
                     Contact Me
-                </Link>
+                </label>
             </div>
         </div>
     );

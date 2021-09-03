@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/evanhays/static/css/main.5ad8045f.chunk.css",
-    "main.js": "/evanhays/static/js/main.6e2f2027.chunk.js",
-    "main.js.map": "/evanhays/static/js/main.6e2f2027.chunk.js.map",
+    "main.css": "/evanhays/static/css/main.bb6deb3d.chunk.css",
+    "main.js": "/evanhays/static/js/main.e53542a0.chunk.js",
+    "main.js.map": "/evanhays/static/js/main.e53542a0.chunk.js.map",
     "runtime-main.js": "/evanhays/static/js/runtime-main.aa9ec0e4.js",
     "runtime-main.js.map": "/evanhays/static/js/runtime-main.aa9ec0e4.js.map",
-    "static/js/2.6eb0e48a.chunk.js": "/evanhays/static/js/2.6eb0e48a.chunk.js",
-    "static/js/2.6eb0e48a.chunk.js.map": "/evanhays/static/js/2.6eb0e48a.chunk.js.map",
+    "static/js/2.638f4d30.chunk.js": "/evanhays/static/js/2.638f4d30.chunk.js",
+    "static/js/2.638f4d30.chunk.js.map": "/evanhays/static/js/2.638f4d30.chunk.js.map",
     "index.html": "/evanhays/index.html",
-    "static/css/main.5ad8045f.chunk.css.map": "/evanhays/static/css/main.5ad8045f.chunk.css.map",
-    "static/js/2.6eb0e48a.chunk.js.LICENSE.txt": "/evanhays/static/js/2.6eb0e48a.chunk.js.LICENSE.txt",
+    "static/css/main.bb6deb3d.chunk.css.map": "/evanhays/static/css/main.bb6deb3d.chunk.css.map",
+    "static/js/2.638f4d30.chunk.js.LICENSE.txt": "/evanhays/static/js/2.638f4d30.chunk.js.LICENSE.txt",
     "static/media/chess.jpg": "/evanhays/static/media/chess.07f58cd9.jpg",
     "static/media/chine.png": "/evanhays/static/media/chine.c499af48.png",
     "static/media/chumauldre.jpeg": "/evanhays/static/media/chumauldre.da11b0e7.jpeg",
     "static/media/evanhays.jpg": "/evanhays/static/media/evanhays.7b5ed8a4.jpg",
+    "static/media/mcdo.jpg": "/evanhays/static/media/mcdo.e504973c.jpg",
+    "static/media/pita.jpg": "/evanhays/static/media/pita.f96b0e88.jpg",
+    "static/media/retraite.jpg": "/evanhays/static/media/retraite.d33fb990.jpg",
+    "static/media/shenyang.jpg": "/evanhays/static/media/shenyang.63bef290.jpg",
     "static/media/test.56ef7695.jpg": "/evanhays/static/media/test.56ef7695.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aa9ec0e4.js",
-    "static/js/2.6eb0e48a.chunk.js",
-    "static/css/main.5ad8045f.chunk.css",
-    "static/js/main.6e2f2027.chunk.js"
+    "static/js/2.638f4d30.chunk.js",
+    "static/css/main.bb6deb3d.chunk.css",
+    "static/js/main.e53542a0.chunk.js"
   ]
 }
