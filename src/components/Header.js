@@ -40,6 +40,9 @@ const Header = () => {
                 <Link className="navlink"  to="/Formation" onClick={() => setclick(true)}>
                     Formations
                 </Link>
+                <Link className="navlink"  to="/Projet" onClick={() => setclick(true)}>
+                    Projets
+                </Link>
                 <label className="navlink" onClick={scrollTofooter} >
                     Contact Me
                 </label>

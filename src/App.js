@@ -9,6 +9,7 @@ import CompetencePage from "./pages/CompetencePage";
 import ScrollToTop from "./components/ScrollToTop";
 import ExperiencePage from "./pages/ExperiencePage";
 import FormationPage from "./pages/FormationPage";
+import ProjetPage from "./pages/ProjetPage";
 
 var hist = createBrowserHistory();
 
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/Competence" exact component={CompetencePage}/>
                 <Route path="/Experience" exact component={ExperiencePage}/>
                 <Route path="/Formation" exact component={FormationPage}/>
+                <Route path="/Projet" exact component={ProjetPage}/>
             <Footer/>
         </HashRouter>
       </div>

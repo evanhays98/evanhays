@@ -65,14 +65,14 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     padding: 12px 0;
-    font-size: 48px;
+    font-size: 35px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({lightText}) => (lightText ? '#1bb198' : '#1bb198')};
 
     @media screen and (max-width: 768px)
     {
-        font-size: 37px;
+        font-size: 27px;
     }
 `
 

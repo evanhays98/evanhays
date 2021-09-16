@@ -49,8 +49,8 @@ export const FormationOne = {
     lightText: true,
     lieux: '14-16 Rue Voltaire, 94270 Le Kremlin-Bicêtre',
     topLine: '2016 - 2022 / 6 ans',
-    headline: 'EPITA - Ecole d\'ingénieurs informatique',
-    description: 'Prépare aux métiers du consulting et de la gestion de projets internationaux innovants',
+    headline: 'EPITA (ICE) - Ecole d\'ingénieurs informatique',
+    description: 'Former des ingénieurs en informatique et numérique, qui accéderont à des postes à responsabilités dans les secteurs les plus porteurs. Prépare aux métiers du consulting et de la gestion de projets internationaux innovants.',
     toplinecolor: "#a7d9d0",
     imgStart: true,
     img: require('../images/pita.jpg').default,
@@ -66,7 +66,7 @@ export const ForamtionTwo = {
     lightText: false,
     topLine: '2019 / 6 mois',
     headline: 'Northeastern University',
-    description: 'Formation maths / java / sql / C++ / Algorithmie. Vivre dans un pays avec des culture très éloigner de la France fut pour moi une éxperience unique et inoubliable',
+    description: 'Formation maths / java / sql / C++ / Algorithmie. Experience unique et enrichissante.',
     imgStart: false,
     img: require('../images/shenyang.jpg').default,
     alt: 'Car',
@@ -83,7 +83,37 @@ export const Formationthree = {
     description: 'Baccalauréat science de l\'ingénieur spécialité informatique',
     toplinecolor: "#a7d9d0",
     imgStart: true,
-    img: require('../images/lvld.jpeg').default,
+    img: require('../images/lycee.jpg').default,
+    alt: 'Car',
+    darkText: false
+}
+
+export const ProjetOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lieux: '',
+    topLine: '2019 / 4 semaines',
+    headline: 'C - Shell',
+    description: 'Implémentation d’un Shell suivant la norme POSIX',
+    toplinecolor: "#a7d9d0",
+    imgStart: true,
+    img: require('../images/shelll.png').default,
+    alt: 'Car',
+    darkText: false
+}
+
+export const ProjetTwo = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lieux: '',
+    topLine: '2020 / 3 semaines',
+    headline: 'C++ - Chess',
+    description: 'Création d’un Chess Engine',
+    toplinecolor: "#a7d9d0",
+    imgStart: false,
+    img: require('../images/chess.jpg').default,
     alt: 'Car',
     darkText: false
 }
