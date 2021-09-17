@@ -20,14 +20,14 @@ const QualiteDefault = ({
                     </div>
                 </div>
                 <div className='qualiteW'>
-                    <h2 className='adjectif'>Incroyable</h2>
-                    <h2 className='adjectif'>Incroyable</h2>
-                    <h2 className='adjectif'>Incroyable</h2>
+                    <h2 className='adjectif'>Autonome</h2>
+                    <h2 className='adjectif'>Curieux</h2>
+                    <h2 className='adjectif'>Fléxible</h2>
                 </div>
                 <div className='defaultW'>
-                    <h2 className='adjectif'>Flemmard</h2>
-                    <h2 className='adjectif'>Flemmard</h2>
-                    <h2 className='adjectif'>Flemmard</h2>
+                    <h2 className='adjectif'>Anxieux</h2>
+                    <h2 className='adjectif'>Discret</h2>
+                    <h2 className='adjectif'>Fumeur</h2>
                 </div>
             </div>
         </div>

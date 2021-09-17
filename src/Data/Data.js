@@ -21,7 +21,7 @@ export const homeObjTwo = {
     lightText: false,
     topLine: '2018 / 2 mois',
     headline: 'McDonald\'s',
-    description: 'J\'ai travailler à McDo en tant qu\'équipier cuisinier. Cette éxperience m\'a aprris une chose : que je devais travailler d\'avantage pour que je réussisse dans le domaine de l\'informatique.',
+    description: 'J\'ai travaillé à McDo en tant qu\'équipier cuisinier. Cette expérience m\'a appris une chose : que je devais travailler davantage pour que je réussisse dans le domaine de l\'informatique.',
     imgStart: false,
     img: require('../images/mcdo.jpg').default,
     alt: 'Car',

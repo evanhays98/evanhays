@@ -30,12 +30,13 @@ export const Experience3 = {
 //Formations
 
 export const Formation1 = {
-    name: 'Ecole d\'ingénieurs informatique Paris - EPITA',
+    name: 'EPITA',
     image: require('../images/epita.jpeg').default,
     lieu: '14-16 Rue Voltaire, 94270 Le Kremlin-Bicêtre',
     date: '2016 -> 2022',
     time: '6 ans',
-    description: 'Prépare aux métiers du consulting et de la gestion de projets internationaux innovants'
+    description: 'Majeure ICE (IT Consulting Exploration) forme des élèves\n' +
+        'ingénieurs aux métiers du conseil en IT et en innovation.'
 }
 
 export const Formation2 = {

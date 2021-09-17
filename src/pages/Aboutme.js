@@ -44,7 +44,7 @@ const Aboutme = () => {
                 </div>
                 <div className='wrap12'>
                     <div className='description'>
-                       <p className='text'> Bonjour a toi qui viens en apprendre plus sur moi. Je suis une personne franche, sans prise de tete, attentioner envers autrui. Ce qui m'anime dans le travaille est de concevoir, gerer et developer des projet dans le monde de l'IT.</p>
+                       <p className='text'> Élève ingénieur en informatique de 5e année à l'EPITA à la recherche d’un stage de fin d'étude, début février 2022. Ce qui m'anime dans le travail est de concevoir, gérer et développer des projets dans le monde de l'IT.</p>
                     </div>
                 </div>
             </div>
