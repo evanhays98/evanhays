@@ -30,12 +30,7 @@
 .aboutme .wrap11 {
   display: block;
   width: 100%;
-  background-color: $background;
-  backdrop-filter: blur(10px);
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 2px ridge $colorB;
+
   color: #444;
 
   @media screen and (max-width: 950px) {

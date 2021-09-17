@@ -29,9 +29,7 @@ const Aboutme = () => {
                     <div className="label-field-profile">
                         <p className="label-profile-1">Adresse</p>
                         <p className='span-profile'>|</p>
-                        <div className='address'>
-                            <p className="label-profile-2">3 rue des houx, 78760, Jouars-Pontchartrain</p>
-                        </div>
+                        <p className="label-profile-2">78760, Jouars-Pontchartrain</p>
                     </div>
                     <div className="label-field-profile">
                         <p className="label-profile-1">Toeic Score</p>

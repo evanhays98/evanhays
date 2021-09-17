@@ -45,7 +45,7 @@ const ProfilPictures = () => {
     return (
         <div className='profilePicture'>
             <div className="wrap">
-                <img className='img' src={require('../images/evanhays.jpg').default} alt='profile'/>
+                <img className='img' src={require('../images/evanhays.png').default} alt='profile'/>
             </div>
         </div>
     );

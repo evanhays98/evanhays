@@ -160,8 +160,8 @@ const Banner = () => {
                     <BannerH1>Evan HAYS</BannerH1>
                     <BannerH2>22 ans</BannerH2>
                 </Wrapper>
-                <BannerP>Elève ingénieur en informatique de 5e année à l'EPITA à la recherche d’un stage de fin d'etude
-                debut fevrier</BannerP>
+                <BannerP>Elève ingénieur en informatique de 5e année à l'EPITA à la recherche d’un stage de fin d'étude,
+                début février 2022</BannerP>
                 <BannerBtnWrapper>
                     <Button to="/Aboutme"
                         onMouseEnter={onHover} 

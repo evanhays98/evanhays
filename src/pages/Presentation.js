@@ -180,11 +180,13 @@ const Presentation = () => {
 
                 </div>
                 <div className={projet ? 'btnwrap display' : 'btnwrap display-none'}>
-                    <button className='btn2' to="/"
-                            onMouseEnter={onHover}
-                            onMouseLeave={onHover}>
-                        En savoir plus  {hover ? <ArrowForward /> : <ArrowRight />}
-                    </button>
+                    <Link to="/Projet">
+                        <button  className='btn2'
+                                 onMouseEnter={onHover}
+                                 onMouseLeave={onHover}>
+                            En savoir plus {hover ? <ArrowForward /> : <ArrowRight />}
+                        </button>
+                    </Link>
                 </div>
             </div>
         </motion.div>

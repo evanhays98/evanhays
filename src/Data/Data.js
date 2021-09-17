@@ -117,3 +117,19 @@ export const ProjetTwo = {
     alt: 'Car',
     darkText: false
 }
+
+export const ProjetThree = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lieux: '',
+    topLine: '2021 / 36 heures',
+    headline: 'Hackathon',
+    description: 'marathon de programmation sur le thème : vie étudiante "Avoir 20 ans en 2020. Notre solution était une plateforme d\'entraide entre étudiant, connecté à discord. Pour motiver les personnes à s\'entre aider, un système de dette a été mit en place, pour ainsi\n' +
+        'inciter ceux qui ont eu besoin d\'aide à aider les autres !',
+    toplinecolor: "#a7d9d0",
+    imgStart: true,
+    img: require('../images/hack.png').default,
+    alt: 'Car',
+    darkText: false
+}

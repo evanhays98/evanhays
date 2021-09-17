@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Link} from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
-import { AiOutlineLogout } from "react-icons/ai";
+import {AiFillHome, AiOutlineLogout} from "react-icons/ai";
 
 
 const Header = () => {
@@ -23,6 +23,7 @@ const Header = () => {
     return (
         <div className="nav">
             <Link className="navlinkT" to="/">
+                <AiFillHome className='home'></AiFillHome>
                 <h1>Resume</h1>
             </Link>
             <FaBars className={click ? 'bars' : 'bars-none'} onClick={handleClick}/>
