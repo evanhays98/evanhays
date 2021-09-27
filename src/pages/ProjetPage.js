@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import MainContainer from "../components/MainContainer";
-import {ProjetOne, ProjetThree, ProjetTwo} from "../Data/Data";
+import {ProjetFour, ProjetOne, ProjetThree, ProjetTwo} from "../Data/Data";
 
 const ProjetPage = () => {
     return (
@@ -13,6 +13,7 @@ const ProjetPage = () => {
             <MainContainer {...ProjetThree}/>
             <MainContainer {...ProjetTwo}/>
             <MainContainer {...ProjetOne}/>
+            <MainContainer {...ProjetFour}/>
 
         </motion.div>
     );

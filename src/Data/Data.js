@@ -94,8 +94,8 @@ export const ProjetOne = {
     lightText: true,
     lieux: '',
     topLine: '2019 / 4 semaines',
-    headline: 'C - Shell',
-    description: 'Implémentation d’un Shell suivant la norme POSIX',
+    headline: 'Shell',
+    description: 'Implémentation d’un Shell suivant la norme POSIX. Le projet à été réalisé en groupe de 4 personnes. Nous avons implementer le parsing et le lexing afin de réaliser le projet.',
     toplinecolor: "#a7d9d0",
     imgStart: true,
     img: require('../images/shelll.png').default,
@@ -109,8 +109,8 @@ export const ProjetTwo = {
     lightText: true,
     lieux: '',
     topLine: '2020 / 3 semaines',
-    headline: 'C++ - Chess',
-    description: 'Création d’un Chess Engine',
+    headline: 'Chess',
+    description: 'Pout ce projet nous avons implementer notre engine avec la methode bitboards aifn de reduire le temps de calcule. Pour notre intelligence nous avons utiliser la méthode alphabeta afin de ne pas parcourir toutes les possibilités et d\'optimiser notre algorithme.',
     toplinecolor: "#a7d9d0",
     imgStart: false,
     img: require('../images/chess.jpg').default,
@@ -130,6 +130,21 @@ export const ProjetThree = {
     toplinecolor: "#a7d9d0",
     imgStart: true,
     img: require('../images/hack.png').default,
+    alt: 'Car',
+    darkText: false
+}
+
+export const ProjetFour = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lieux: '',
+    topLine: '2021 - ....  / 3 mois',
+    headline: 'Fidelity',
+    description: 'Réalistaion d\'une application web, android et ios permettant de créer des cartes de fidélité dématérialisées. Pour la partie Frontend les technologies utilisés sont le ReactJS et le ReactNative. Pour la partie Backend nous utilisons Firebase',
+    toplinecolor: "#a7d9d0",
+    imgStart: false,
+    img: require('../images/fidelity.png').default,
     alt: 'Car',
     darkText: false
 }

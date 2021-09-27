@@ -61,7 +61,7 @@ export const Formation3 = {
 
 export const Projet1 = {
     name: 'C - Shell',
-    image: require('../images/shell.jpeg').default,
+    image: require('../images/shelll.png').default,
     date: '2019',
     time: '4 semaines',
     description: 'Implémentation d’un Shell suivant la norme POSIX'
